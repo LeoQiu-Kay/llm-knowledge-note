@@ -26,6 +26,7 @@
 - [03-对齐与强化学习.md](./03-训练与对齐篇/03-对齐与强化学习.md) — PPO / DPO / GRPO
 - [04-推理时计算.md](./03-训练与对齐篇/04-推理时计算.md) — CoT、o1/R1、PRM
 - [05-解码与采样.md](./03-训练与对齐篇/05-解码与采样.md) — Top-k/p、温度
+- [06-OnPolicy蒸馏OPD.md](./03-训练与对齐篇/06-OnPolicy蒸馏OPD.md) — On-Policy Distillation vs SFT vs RL
 
 ### [04-训练推理加速篇/](./04-训练推理加速篇/) — 推理优化
 - [01-KVCache.md](./04-训练推理加速篇/01-KVCache.md) — 原理、显存计算
