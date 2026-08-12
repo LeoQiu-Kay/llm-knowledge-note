@@ -12,10 +12,18 @@
 └── tracks/
     ├── java/
     │   ├── 01-Java核心/
-    │   └── 02-Spring与数据/
+    │   ├── 02-Spring与数据/
+    │   ├── 03-并发编程/
+    │   ├── 04-JVM与性能/
+    │   ├── 05-数据库缓存消息/
+    │   └── 06-分布式系统设计/
     └── agent/
         ├── 01-Agent基础/
-        └── 02-Agent工程化/
+        ├── 02-Agent工程化/
+        ├── 03-RAG与知识系统/
+        ├── 04-Agent安全与治理/
+        ├── 05-Agent生产架构/
+        └── 06-Agent应用模式/
 ```
 
 新 Track 的 Markdown 使用稳定 front matter slug，移动章节或调整编号时不会改变线上 URL：
@@ -112,7 +120,7 @@ title: Java 集合框架
 
 ## 📝 配套面试题（QA）
 
-`01~08` 每个篇章下都有一个 `QA/` 子目录，为该篇**每个原理文档**配了一份对应的面试问答（`XX-主题-面试题.md`）。Java 与 Agent Track 同样使用正文 + `QA/` 配对结构。目前共 **46 份、405 道题**。
+`01~08` 的核心篇章下设有 `QA/` 子目录，Java 与 Agent Track 则为每个知识点提供正文 + `QA/` 配对内容。目前共 **127 个知识点、110 份 QA、725 道题**。
 
 - 每题标注**难度**（⭐→⭐⭐⭐⭐）和**高频度**（🔥→🔥🔥🔥）
 - 结构：`问题 → 参考答案（含公式/表格）→ 追问`
@@ -124,10 +132,20 @@ title: Java 集合框架
 
 ## Java 后端与 Agent Track
 
-- [Java 核心](./tracks/java/01-Java核心/)：集合框架、JVM 内存与 GC
-- [Spring 与数据](./tracks/java/02-Spring与数据/)：Spring IoC/AOP、MySQL 索引与事务
-- [Agent 基础](./tracks/agent/01-Agent基础/)：运行循环/ReAct、工具调用与结构化输出
-- [Agent 工程化](./tracks/agent/02-Agent工程化/)：MCP 集成、评测与可观测性
+- **Java 后端开发：6 章、36 个知识点、180 道题**
+  - [Java 核心](./tracks/java/01-Java核心/)：集合、对象模型、泛型、反射、异常与 JVM 基础
+  - [Spring 与数据](./tracks/java/02-Spring与数据/)：IoC/AOP、MVC、Boot、事务、MyBatis 与 MySQL
+  - [并发编程](./tracks/java/03-并发编程/)：JMM、AQS、线程池、异步编排、并发容器与虚拟线程
+  - [JVM 与性能](./tracks/java/04-JVM与性能/)：类加载、JIT、GC 调优、诊断、基准测试与 Netty
+  - [数据库缓存消息](./tracks/java/05-数据库缓存消息/)：MySQL、SQL 优化、Redis、Kafka 与 RocketMQ
+  - [分布式系统设计](./tracks/java/06-分布式系统设计/)：事务、幂等、韧性、服务治理、分片与高可用
+- **Agent 应用开发：6 章、36 个知识点、180 道题**
+  - [Agent 基础](./tracks/agent/01-Agent基础/)：运行循环、工具、状态、规划、记忆与上下文工程
+  - [Agent 工程化](./tracks/agent/02-Agent工程化/)：MCP、评测、工作流、多 Agent、审批与故障恢复
+  - [RAG 与知识系统](./tracks/agent/03-RAG与知识系统/)：摄取、向量/混合检索、引用、GraphRAG 与评测
+  - [Agent 安全与治理](./tracks/agent/04-Agent安全与治理/)：注入、权限、沙箱、隐私、审计与红队
+  - [Agent 生产架构](./tracks/agent/05-Agent生产架构/)：服务、队列、模型路由、成本、可观测与发布
+  - [Agent 应用模式](./tracks/agent/06-Agent应用模式/)：Browser、Code、Data、Voice、Research 与产品体验
 
 正文统一按「30 秒回答 → 核心原理 → 工程权衡 → 常见故障 → 面试追问」组织，方便先形成短答，再深入到生产实践。
 
