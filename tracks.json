@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "tracks": [
+    {
+      "key": "llm",
+      "title": "大模型算法",
+      "shortTitle": "LLM 算法",
+      "description": "模型原理、训练、推理、架构与工程化",
+      "order": 1,
+      "path": ".",
+      "legacy": true
+    },
+    {
+      "key": "java",
+      "title": "Java 后端开发",
+      "shortTitle": "Java 后端",
+      "description": "Java、JVM、Spring、数据库与分布式系统",
+      "order": 2,
+      "path": "tracks/java"
+    },
+    {
+      "key": "agent",
+      "title": "Agent 应用开发",
+      "shortTitle": "Agent 开发",
+      "description": "工具调用、RAG、MCP、工作流、评测与部署",
+      "order": 3,
+      "path": "tracks/agent"
+    }
+  ]
+}
