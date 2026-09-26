@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="460" viewBox="0 0 1040 460" role="img">
+<title>项目设计：短视频推荐与长短期体验</title>
+<desc>实时行为与画像 → 多路召回 → 多目标排序 → 列表约束与反馈</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9" fill="#8495af"/></marker></defs>
+<rect width="1040" height="460" rx="20" fill="#fff"/>
+<path d="M40 91H1000" stroke="#e0e7f0"/>
+<text x="40" y="56" text-anchor="start" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="27" fill="#243b59">短视频推荐与长短期体验</text>
+<rect x="60" y="133" width="410" height="112" rx="14" fill="#eef4ff" stroke="#c4d2e5"/>
+<text x="84" y="162" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="16" fill="#6c7890">1</text>
+<text x="265.0" y="197.0" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="20" fill="#243b59">实时行为与画像</text>
+<rect x="570" y="133" width="410" height="112" rx="14" fill="#ede9fb" stroke="#c4d2e5"/>
+<text x="594" y="162" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="16" fill="#6c7890">2</text>
+<text x="775.0" y="197.0" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="20" fill="#243b59">多路召回</text>
+<rect x="570" y="288" width="410" height="112" rx="14" fill="#e6f5ed" stroke="#c4d2e5"/>
+<text x="594" y="317" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="16" fill="#6c7890">3</text>
+<text x="775.0" y="352.0" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="20" fill="#243b59">多目标排序</text>
+<rect x="60" y="288" width="410" height="112" rx="14" fill="#fff4e5" stroke="#c4d2e5"/>
+<text x="84" y="317" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="16" fill="#6c7890">4</text>
+<text x="265.0" y="352.0" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="20" fill="#243b59">列表约束与反馈</text>
+<path d="M480 190L555 190" fill="none" stroke="#8495af" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M775 250L775 279" fill="none" stroke="#8495af" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M555 344L480 344" fill="none" stroke="#8495af" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>
