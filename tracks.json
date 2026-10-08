@@ -30,7 +30,7 @@
       "key": "search-rec",
       "title": "搜索推荐算法",
       "shortTitle": "搜索推荐",
-      "description": "召回排序、用户建模、LLM 与生成式推荐、线上工程与面试实战 · 36 篇",
+      "description": "召回排序、用户建模、LLM 与生成式推荐、线上工程与面试实战 · 37 篇",
       "order": 4,
       "path": "tracks/search-rec"
     },
